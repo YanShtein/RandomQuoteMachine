@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "author": "Forrest Gump",
+            "quote": "My mama always said life was like a box of chocolates. You never know what you're gonna get."
+        },
+        {
+            "author": "The Godfather",
+            "quote": "I'm gonna make him an offer he can't refuse."
+        },
+        {
+            "author": "On the Waterfront",
+            "quote": "You don't understand!  I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, which is what I am."
+        },
+        {
+            "author": "The Wizard of Oz",
+            "quote": "Toto, I've a feeling we're not in Kansas anymore."
+        },
+        {
+            "author": "Star Wars",
+            "quote": "May the Force be with you."
+        },
+        {
+            "author": "All About Eve",
+            "quote": "Fasten your seatbelts. It's going to be a bumpy night."
+        },
+        {
+            "author": "Cool Hand Luke",
+            "quote": "What we've got here is failure to communicate."
+        },
+        {
+            "author": "E.T. The Extra-Terrestrial",
+            "quote": "E.T. phone home."
+        },
+        {
+            "author": "The Silence of the Lambs",
+            "quote": "A census taker once tried to test me. I ate his liver with some fava beans and a nice Chianti."
+        },
+        {
+            "author": "Jaws",
+            "quote": "You're gonna need a bigger boat."
+        }
+    ]
+}

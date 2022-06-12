@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+
+.quote-box {
+    width: 500px;
+    padding: 40px 50px;
+    margin: auto;
+    background-color: white;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#text {
+    text-align: center;
+    color: red;
+    font-family: "Indie Flower";
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#author {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: right;
+    color: red;
+    font-family: inherit;
+}
+
+.buttons {
+    display: block;
+    margin: auto;
+}
+
+.buttons #new-quote {
+    float: right;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.button {
+    float: left;
+    background-color: red;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.button:hover {
+    opacity: 0.8;
+    /* transition: .5s; */
+}
+
+
