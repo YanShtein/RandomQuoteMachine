@@ -39,9 +39,7 @@ function Quote() {
     let quoteAuthor = '- ' + json_quotes[randomQuote].author;
     $('#quoteText').text(quoteText);
     $('#quoteAuthor').text(quoteAuthor);
-    $('#tweet-quote').on('click', function() {
-        window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent('"' + quoteText + '"'))
-    });
+    $('#tweet-quote').attr("href", 'https://twitter.com/intent/tweet?text=' + encodeURIComponent('"' + quoteText + '"'));
     $('#tumblr-quote').on('click', function() {
         window.open('https://www.tumblr.com/widgets/share/tool?posttype=' + encodeURIComponent('"' + quoteText + '"'))
     });
